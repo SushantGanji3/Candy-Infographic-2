@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+    <head>
+        <title>Cadbury Shop</title>
+        <style>
+            body {
+                font-family: verdana;
+            }
+            header {
+                background-color: #300627;
+                padding: 20px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+            }
+            nav {
+                float: left;
+                width: 50%;
+                height: 500px; 
+                background: #0a023b;
+                padding: 20px;
+            }
+            article {
+                float: left;
+                padding: 20px;
+                width: 50%;
+                background-color: #a8a7a7;
+                height: 700px;
+            }
+            section:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            footer {
+                background-color: #5f2727;
+                padding: 10px;
+                text-align: center;
+                color: rgb(170, 148, 148);
+            }
+            @media (max-width: 600px) {
+                nav, article {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .scroll {
+                background-color: lightblue;
+                height: 300px;
+                width: 400px;
+                overflow: scroll;
+            }
+            .container {
+                position: absolute;
+                margin-left: 550px;
+                width: auto;
+            }
+            .topnav {
+                overflow: hidden;
+                background-color: #ffffff;
+            }
+            .topnav a {
+                float: left;
+                color: brown;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 15px;
+            }
+            .topnav a:hover {
+                background-color: grey;
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h2>Cadbury Shop</h2>
+            <div class = "container">
+                <div class = "topnav">
+                    <a href = "Home.html">Home</a>
+                    <a href = "Kitkat.html">Kitkat</a>
+                    <a href = "Hershey.html">Hershey</a>
+                    <a href = "Cadbury.html">Cadbury</a>
+                </div>
+            </div>
+        </header>
+        <section>
+            <img src = "cadbury.jpg" style = "height: 700px;">
+            <article>
+                <h3>Cadbury, formerly Cadbury's and Cadbury Schweppes, is a British multinational confectionery company wholly owned by Mondelez International since 2010. It is the second largest confectionery brand in the world after Mars.</h3>
+                <table>
+                    <tr>
+                        <th><h1>Cadbury Chocolate Bar 100 grams</h1></th>
+                        <th><h3>Reviews</h3></th>
+                    </tr>
+                    <tr>
+                        <th><p>Price: $3.99</p></th>
+                    </tr>
+                    <tr>
+                        <th><img src = "cadburynutrition.jpg" style = "height: 75%;"></th>
+                        <th>
+                            <p class = "scroll">
+                                Aliyarao <br>April 29, 2020 <br>Ontario, Canada <br>Love it. Dairy milk Chocolate bars have always been my favorite chocolate until now it has creamy delious if you have never had Cadbury dairy milk chocolate bar then you shold try it. 10/10 <br><br>
+                                lsurath <br>April 29, 2020 <br>Canada <br>Yum, I buy this brand of chocolate for my dad and son on a regular basis. I buy the different ones to try but their most favourite is the fruit and nut but most stores sell out fast on that one. 8/10 <br><br>
+                                Hutchinsonson <br>April 29, 2020 <br>Nova Scotia, Canada <br> One of the best chocolate. This chocolate is absolutely yummy. It is now one of our families favourite.. great snack too The chocolate is absolutely melting in your mouth and once you tried it you can’t even stop till the last bite 10/10 <br><br>
+                            </p>
+                        </th>    
+                    </tr>
+                </table>
+            </article>
+        </section>
+        <footer>
+            <input type = "button" value = "Add to Cart"><br>
+            <input type = "button" value = "+">
+            <p>_</p>
+            <input type = "button" value = "-">
+        </footer>
+    </body>
+</html>

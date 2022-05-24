@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+    <head>
+        <title>Hershey's Shop</title>
+        <style>
+            body {
+                font-family: verdana;
+            }
+            header {
+                background-color: #4d2222;
+                padding: 20px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+            }
+            nav {
+                float: left;
+                width: 50%;
+                height: 500px; 
+                background: #0a023b;
+                padding: 20px;
+            }
+            article {
+                float: left;
+                padding: 20px;
+                width: 50%;
+                background-color: #a8a7a7;
+                height: 700px;
+            }
+            section:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            footer {
+                background-color: #5f2727;
+                padding: 10px;
+                text-align: center;
+                color: rgb(170, 148, 148);
+            }
+            @media (max-width: 600px) {
+                nav, article {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .scroll {
+                background-color: lightblue;
+                height: 300px;
+                width: 400px;
+                overflow: scroll;
+            }
+            .container {
+                position: absolute;
+                margin-left: 550px;
+                width: auto;
+            }
+            .topnav {
+                overflow: hidden;
+                background-color: #ffffff;
+            }
+            .topnav a {
+                float: left;
+                color: brown;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 15px;
+            }
+            .topnav a:hover {
+                background-color: grey;
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h2>Hershey Shop</h2>
+            <div class = "container">
+                <div class = "topnav">
+                    <a href = "Home.html">Home</a>
+                    <a href = "Kitkat.html">Kitkat</a>
+                    <a href = "Hershey.html">Hershey</a>
+                    <a href = "Cadbury.html">Cadbury</a>
+                </div>
+            </div>
+        </header>
+        <section>
+            <img src = "hersheys.jpeg" style = "height: 700px;">
+            <article>
+                <h3>The Hershey Company, commonly known as Hershey's, is an American multinational company and one of the largest chocolate manufacturers in the world. It also manufactures baked products, such as cookies, cakes, milk shakes, drinks and many more that are produced globally.</h3>
+                <table>
+                    <tr>
+                        <th><h1>Hershey's Chocolate Bar 43 grams</h1></th>
+                        <th><h3>Reviews</h3></th>
+                    </tr>
+                    <tr>
+                        <th><p>Price: $2.00</p></th>
+                    </tr>
+                    <tr>
+                        <th><img src = "hersheysnutrition.jpg" style = "height: 50%;"></th>
+                        <th>
+                            <p class = "scroll">
+                                Hugh F. <br>My favorite chocolate <br>June 10th, 2020 <br>It's just delicious chocolate. My favorite, I guess. My whole family eats Hershey's chocolate and honors its taste. Honestly, it feels like their chocolate doesn't change over the years, but remains as tasty and soft. If I want to treat myself or just have a bad day, I buy myself a Hershey's chocolate bar and forget about everything. 5/5<br><br>
+                                Bee B. <br>Melts me every time <br>June 29th, 2020 <br>Gosh, their products are delicious. Cant even find words to describe it! Will always love it. Best therapy after a bad day. 4.5/5<br><br>
+                                Jules B. <br>I Loved It! <br>September 23rd, 2020 <br>Hershey's chocolate bar was Delicious. It is too chocolaty. My all-time favorite, I use it for birthday, party, and also to gift my friends. They also enjoyed it. 5/5<br><br>
+                            </p>
+                        </th>    
+                    </tr>
+                </table>
+            </article>
+        </section>
+        <footer>
+            <input type = "button" value = "Add to Cart"><br>
+            <input type = "button" value = "+">
+            <p>_</p>
+            <input type = "button" value = "-">
+        </footer>
+    </body>
+</html>

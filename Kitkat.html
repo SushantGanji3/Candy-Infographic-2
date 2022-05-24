@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+    <head>
+        <title>Kitkat Shop</title>
+        <style>
+            body {
+                font-family: verdana;
+            }
+            header {
+                background-color: red;
+                padding: 20px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+            }
+            nav {
+                float: left;
+                width: 50%;
+                height: 500px; 
+                background: #0a023b;
+                padding: 20px;
+            }
+            article {
+                float: left;
+                padding: 20px;
+                width: 50%;
+                background-color: #a8a7a7;
+                height: 700px;
+            }
+            section:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            footer {
+                background-color: #5f2727;
+                padding: 10px;
+                text-align: center;
+                color: rgb(170, 148, 148);
+            }
+            @media (max-width: 600px) {
+                nav, article {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .scroll {
+                background-color: lightblue;
+                height: 300px;
+                width: 400px;
+                overflow: scroll;
+            }
+            .container {
+                position: absolute;
+                margin-left: 550px;
+                width: auto;
+            }
+            .topnav {
+                overflow: hidden;
+                background-color: #ffffff;
+            }
+            .topnav a {
+                float: left;
+                color: brown;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 15px;
+            }
+            .topnav a:hover {
+                background-color: grey;
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h2>KitKat Shop</h2>
+            <div class = "container">
+                <div class = "topnav">
+                    <a href = "Home.html">Home</a>
+                    <a href = "Kitkat.html">Kitkat</a>
+                    <a href = "Hershey.html">Hershey</a>
+                    <a href = "Cadbury.html">Cadbury</a>
+                </div>
+            </div>
+        </header>
+        <section>
+            <img src = "Kitkat.jpg" style = "height: 700px;">
+            <article>
+                <h3>Kit Kat is a chocolate-covered wafer bar confection created by Rowntree's of York, United Kingdom, and is now produced globally by Nestlé, which acquired Rowntree in 1988, with the exception of the United States, where it is made under license by the H. B. Reese Candy Company, a division of The Hershey Company.</h3>
+                <table>
+                    <tr>
+                        <th><h1>Kitkat Chocolate Bar 42 grams</h1></th>
+                        <th><h3>Reviews</h3></th>
+                    </tr>
+                    <tr>
+                        <th><p>Price: $1.45</p></th>
+                    </tr>
+                    <tr>
+                        <th><img src = "kitkatnutrition.png"></th>
+                        <th>
+                            <p class = "scroll">
+                                nisia <br>August 19, 2020 <br>Ontario, Canada <br>Chocolate that is inside and out. Delicious. I love Kitkats, they are so delicious. I love the crispy wafer inside, and the chocolate that is inside and out. I don’t find it sickly sweet due to the light airy inside and can easily eat a whole bar and sometimes I eat the chocolate like a cookie whith my coffe . Kitkats are definitely my family favourite .And if you're guys don't try definitely should! 10/10<br><br>
+                                Tooter4 <br>July 23, 2020 <br>Florida, United States <br>Love it! It tastes great. They break apart to make it easier to eat. I love the chocolate covered wafers. They are just the right size for a snack if your craving something sweet. 9/10<br><br>
+                                VanessaBl <br>July 22, 2020 <br>Canada <br>These are the best! I love Kitkats, they are so incredible. I love the crispy wafer inside, and the chocolate that is inside and out. I don’t find it sickly sweet due to the light airy inside and can easily eat a whole bar in one sitting without feeling sick. I think Kitkats are definitely close to being my favourite and anyone who hasn’t had one before definitely should! 10/10<br><br>
+                            </p>
+                        </th>    
+                    </tr>
+                </table>
+            </article>
+        </section>
+        <footer>
+            <input type = "button" value = "Add to Cart"><br>
+            <input type = "button" value = "+">
+            <p>_</p>
+            <input type = "button" value = "-">
+        </footer>
+    </body>
+</html>
